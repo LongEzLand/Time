@@ -1,3 +1,5 @@
+import java.io.PrintStream;
+
 /**
  * Created by opilane on 19.10.2016.
  */
@@ -24,11 +26,24 @@ public class Time {
         //Calculating the percentage of the day that has passed
 
         int sinceSecons = 59415;
-        int remainingSeconds = 26985;
+        int totalSeconds = 86390;
 
         //Percentage remaining
 
-        System.out.printf("%.3f %.6f", ((float) remainingSeconds/(float) sinceSecons*100),((float) remainingSeconds/(float) sinceSecons*100));// typecasting(data type changes to the one in brackets)
+        System.out.print("The percentage of the day that has passed is: ");
+        PrintStream printf = System.out.printf("%.3f", (float) sinceSecons / (float) totalSeconds * 100);
+        // typecasting(data type changes to the one in brackets)
+
+        //Excercise 2.3.6
+        //Computing elapsed time since i started working on this excercise...
+
+        int newHour = 18;
+        int newMinute = 8;
+        int newSecond =50;
+
+
+
+
 
 
 
