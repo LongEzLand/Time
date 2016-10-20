@@ -23,6 +23,15 @@ public class Time {
         //Excercise 2.3.5
         //Calculating the percentage of the day that has passed
 
+        int sinceSecons = 59415;
+        int remainingSeconds = 26985;
+
+        //Percentage remaining
+
+        System.out.printf("%.3f %.6f", ((float) remainingSeconds/(float) sinceSecons*100),((float) remainingSeconds/(float) sinceSecons*100));// typecasting(data type changes to the one in brackets)
+
+
+
 
 
 
