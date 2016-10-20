@@ -39,7 +39,11 @@ public class Time {
 
         int newHour = 18;
         int newMinute = 8;
-        int newSecond =50;
+        int newSecond = 50;
+
+        System.out.print("\n\nElapsed time since I started to work on this project is: ");
+        System.out.println(((newHour-hour)*3600)+((newMinute-minute)*60)+(newSecond-seconds));
+
 
 
 
